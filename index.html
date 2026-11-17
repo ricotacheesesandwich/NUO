@@ -1,342 +1,134 @@
 <!doctype html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#f5f5f3" />
-    <meta name="description" content="NUO" />
-    <title>NUO</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="site" id="top">
-      <header class="header inside" aria-label="주 메뉴">
-        <a class="brand" href="#top" aria-label="NUO 홈"
-          ><img src="./assets/logo.svg" alt="nuo."
-        /></a>
-        <nav class="navigation" aria-label="섹션 이동">
-          <a href="#heads">MENU</a><a href="#case">SHOP</a
-          ><a href="#ritual">ABOUT</a>
-        </nav>
-      </header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f5f3">
+<meta name="description" content="NUO — everyday ritual beauty device concept site">
+<title>NUO</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="site" id="top">
+  <header class="header inside" aria-label="주 메뉴">
+    <a class="brand" href="#top" aria-label="NUO 홈"><img src="./assets/logo.svg" alt="nuo."></a>
+    <nav class="navigation" aria-label="섹션 이동"><a href="#heads">MENU</a><a href="#case">SHOP</a><a href="#ritual">ABOUT</a></nav>
+  </header>
 
-      <main>
-        <section class="hero inside" aria-labelledby="hero-title">
-          <div class="hero-copy">
-            <h1
-              id="hero-title"
-              style="
-                position: absolute;
-                left: -9999px;
-                width: 1px;
-                height: 1px;
-                overflow: hidden;
-              "
-            >
-              NUO
-            </h1>
-            <img class="hero-logo" src="./assets/logo.svg" alt="nuo." />
-            <p class="hero-intro">
-              For busy mornings to relaxed afternoons and peaceful evenings. NUO
-              brings thoughtful care to the small moments of everyday life.
-            </p>
-            <a class="outlined" href="#case"
-              >구매하기 <span aria-hidden="true">↗</span></a
-            >
-          </div>
-          <div class="hero-visual">
-            <div class="float-wrap">
-              <div class="floor-shadow hero-shadow" aria-hidden="true"></div>
-              <img
-                class="float-image"
-                src="./assets/hero.webp"
-                alt="부드럽게 떠 있는 NUO 원형 뷰티 디바이스"
-                fetchpriority="high"
-              />
-            </div>
-          </div>
-        </section>
+  <main>
+    <section class="hero inside" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">NUO</h1>
+        <img class="hero-logo" src="./assets/logo.svg" alt="nuo.">
+        <p class="hero-intro">For busy mornings to relaxed afternoons and peaceful evenings. NUO brings thoughtful care to the small moments of everyday life.</p>
+        <a class="outlined" href="#case">구매하기 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-visual">
+        <div class="float-wrap">
+          <div class="floor-shadow hero-shadow" aria-hidden="true"></div>
+          <img class="float-image" src="./assets/hero.webp" alt="부드럽게 떠 있는 NUO 원형 뷰티 디바이스" fetchpriority="high">
+        </div>
+      </div>
+    </section>
 
-        <section
-          class="section feature head-types inside"
-          id="heads"
-          aria-labelledby="heads-title"
-        >
-          <div class="feature-art heads-art">
-            <div class="floor-shadow feature-shadow" aria-hidden="true"></div>
-            <img
-              src="./assets/heads.webp"
-              alt="두 가지 헤드 타입이 떠 있는 모습"
-              loading="eager"
-            />
-          </div>
-          <div class="head-copy" id="headCopy">
-            <svg class="head-connector" viewBox="0 0 104 52" aria-hidden="true">
-              <path d="M1 1 L 60 1 L 68 44" />
-            </svg>
-            <div class="head-copy-inner">
-              <span class="title-reveal"
-                ><h2 id="heads-title">Head Types</h2></span
-              >
-              <span class="copy-reveal"
-                ><p>
-                  서로 다른 표면 구조의 교체형 헤드로 원하는 케어 스타일을
-                  선택할 수 있습니다. 매끄러운 플랫 헤드는 피부에 부드럽게
-                  밀착되고, 입체적인 링 헤드는 곡선형 접촉면을 통해 진동을
-                  전달합니다. 나에게 맞는 헤드로 일상의 스킨케어를 완성해
-                  보세요.
-                </p></span
-              >
-            </div>
-          </div>
-        </section>
+    <section class="section detail-composition inside" aria-labelledby="detail-phrase-title" id="nuo-detail-story">
+      <div class="detail-card" aria-roledescription="이미지 슬라이드쇼" aria-label="NUO 제품 디테일 이미지 6장, 3초마다 자동 전환">
+        <img class="detail-slide is-active" src="./assets/detail_01_surface.webp" alt="NUO 본체의 화이트 표면과 실버 테두리 질감" loading="eager" decoding="async" data-slide="0">
+        <img class="detail-slide" src="./assets/detail_02_case.webp" alt="NUO 보관 케이스의 짙은 그레이 뚜껑 디테일" loading="eager" decoding="async" data-slide="1">
+        <img class="detail-slide" src="./assets/detail_03_ring.webp" alt="NUO 링 타입 헤드의 금속 표면 디테일" loading="eager" decoding="async" data-slide="2">
+        <img class="detail-slide" src="./assets/detail_04_case_front.webp" alt="NUO 보관 케이스 정면 디테일" loading="eager" decoding="async" data-slide="3">
+        <img class="detail-slide" src="./assets/detail_05_flat.webp" alt="NUO 플랫 타입 헤드의 금속 표면 디테일" loading="eager" decoding="async" data-slide="4">
+        <img class="detail-slide" src="./assets/detail_06_contacts.webp" alt="NUO 접점 3개가 있는 원형 헤드 디테일" loading="eager" decoding="async" data-slide="5">
+      </div>
+      <div class="detail-words" id="detail-phrase-title" aria-label="Nature Unfold Origin">
+        <div class="detail-word"><b>N</b>ature</div>
+        <div class="detail-word"><b>U</b>nfold</div>
+        <div class="detail-word"><b>O</b>rigin</div>
+      </div>
+    </section>
 
-        <section
-          class="section detail-composition inside"
-          aria-labelledby="detail-phrase-title"
-          id="nuo-detail-story"
-        >
-          <div
-            class="detail-card"
-            aria-roledescription="이미지 슬라이드쇼"
-            aria-label="NUO 제품 디테일 이미지 6장, 3초마다 자동 전환"
-          >
-            <img
-              class="detail-slide is-active"
-              src="./assets/detail_01_surface.webp"
-              alt="NUO 본체의 화이트 표면과 실버 테두리 질감"
-              loading="eager"
-              decoding="async"
-              data-slide="0"
-            />
-            <img
-              class="detail-slide"
-              src="./assets/detail_02_case.webp"
-              alt="NUO 보관 케이스의 짙은 그레이 뚜껑 디테일"
-              loading="eager"
-              decoding="async"
-              data-slide="1"
-            />
-            <img
-              class="detail-slide"
-              src="./assets/detail_03_ring.webp"
-              alt="NUO 링 타입 헤드의 금속 표면 디테일"
-              loading="eager"
-              decoding="async"
-              data-slide="2"
-            />
-            <img
-              class="detail-slide"
-              src="./assets/detail_04_case_front.webp"
-              alt="NUO 보관 케이스 정면 디테일"
-              loading="eager"
-              decoding="async"
-              data-slide="3"
-            />
-            <img
-              class="detail-slide"
-              src="./assets/detail_05_flat.webp"
-              alt="NUO 플랫 타입 헤드의 금속 표면 디테일"
-              loading="eager"
-              decoding="async"
-              data-slide="4"
-            />
-            <img
-              class="detail-slide"
-              src="./assets/detail_06_contacts.webp"
-              alt="NUO 접점 3개가 있는 원형 헤드 디테일"
-              loading="eager"
-              decoding="async"
-              data-slide="5"
-            />
-          </div>
-          <div
-            class="detail-words"
-            id="detail-phrase-title"
-            aria-label="Nature Unfold Origin"
-          >
-            <div class="detail-word"><b>N</b>ature</div>
-            <div class="detail-word"><b>U</b>nfold</div>
-            <div class="detail-word"><b>O</b>rigin</div>
-          </div>
-        </section>
+    <section class="section feature head-types inside" id="heads" aria-labelledby="heads-title">
+      <div class="feature-art heads-art">
+        <div class="floor-shadow feature-shadow" aria-hidden="true"></div>
+        <img src="./assets/heads.webp" alt="두 가지 헤드 타입이 떠 있는 모습" loading="eager">
+      </div>
+      <div class="head-copy" id="headCopy">
+        <svg class="head-connector" viewBox="0 0 104 52" aria-hidden="true"><path d="M1 1 L 60 1 L 68 44"/></svg>
+        <div class="head-copy-inner">
+          <span class="title-reveal"><h2 id="heads-title">Head Types</h2></span>
+          <span class="copy-reveal"><p>서로 다른 표면 구조의 교체형 헤드로 원하는 케어 스타일을 선택할 수 있습니다. 매끄러운 플랫 헤드는 피부에 부드럽게 밀착되고, 입체적인 링 헤드는 곡선형 접촉면을 통해 진동을 전달합니다. 나에게 맞는 헤드로 일상의 스킨케어를 완성해 보세요.</p></span>
+        </div>
+      </div>
+    </section>
 
-        <section
-          class="section feature case-section inside"
-          id="case"
-          aria-labelledby="case-title"
-        >
-          <div class="feature-copy">
-            <h2 id="case-title">Case</h2>
-            <p>
-              디바이스와 교체형 헤드를 한곳에 정리할 수 있는 전용 케이스입니다.
-              부드러운 곡선의 화이트 바디에 반투명 뚜껑을 더하고 손잡이 되는
-              홈으로 편리하게 열 수 있도록 디자인했습니다. 사용 후에도 깔끔하게
-              보관하며 일상의 스킨케어를 마무리해 보세요.
-            </p>
-          </div>
-          <div class="feature-art">
-            <div class="floor-shadow feature-shadow" aria-hidden="true"></div>
-            <img
-              src="./assets/case.webp"
-              alt="NUO 전용 보관 케이스"
-              loading="eager"
-            />
-          </div>
-        </section>
+    <section class="section feature case-section inside" id="case" aria-labelledby="case-title">
+      <div class="feature-copy">
+        <h2 id="case-title">Case</h2>
+        <p>디바이스와 교체형 헤드를 한곳에 정리할 수 있는 전용 케이스입니다. 부드러운 곡선의 화이트 바디에 반투명 뚜껑을 더하고 손잡이 되는 홈으로 편리하게 열 수 있도록 디자인했습니다. 사용 후에도 깔끔하게 보관하며 일상의 스킨케어를 마무리해 보세요.</p>
+      </div>
+      <div class="feature-art">
+        <div class="floor-shadow feature-shadow" aria-hidden="true"></div>
+        <img src="./assets/case.webp" alt="NUO 전용 보관 케이스" loading="eager">
+      </div>
+    </section>
 
-        <section
-          class="section feature body-section inside"
-          id="body"
-          aria-labelledby="body-title"
-        >
-          <div class="feature-art">
-            <div class="floor-shadow feature-shadow" aria-hidden="true"></div>
-            <img
-              src="./assets/main_body.webp"
-              alt="NUO 메인 바디"
-              loading="eager"
-            />
-          </div>
-          <div class="feature-copy">
-            <h2 id="body-title">Main Body</h2>
-            <p>
-              조약돌을 닮은 부드러운 곡선으로 손안에 편안하게 감기는 본체입니다.
-              섬세한 표면 질감과 실버 테두리가 조화를 이루며, 상단에 교체형
-              헤드를 결합해 원하는 케어 스타일에 맞춰 사용할 수 있습니다. 진동
-              기능과 함께 나만의 스킨케어 루틴을 완성해 보세요.
-            </p>
-          </div>
-        </section>
+    <section class="section feature body-section inside" id="body" aria-labelledby="body-title">
+      <div class="feature-art">
+        <div class="floor-shadow feature-shadow" aria-hidden="true"></div>
+        <img src="./assets/main_body.webp" alt="NUO 메인 바디" loading="eager">
+      </div>
+      <div class="feature-copy">
+        <h2 id="body-title">Main Body</h2>
+        <p>조약돌을 닮은 부드러운 곡선으로 손안에 편안하게 감기는 본체입니다. 섬세한 표면 질감과 실버 테두리가 조화를 이루며, 상단에 교체형 헤드를 결합해 원하는 케어 스타일에 맞춰 사용할 수 있습니다. 진동 기능과 함께 나만의 스킨케어 루틴을 완성해 보세요.</p>
+      </div>
+    </section>
 
-        <section
-          class="section component-info inside"
-          id="details"
-          aria-labelledby="detail-title"
-        >
-          <div class="component-head">
-            <div>
-              <span class="kicker">EXPLODED VIEW · NUO TECHNOLOGY</span>
-              <h2 id="detail-title">Layers of NUO.</h2>
-            </div>
-          </div>
-          <div class="exploded-layout" id="exploded-zone">
-            <div
-              class="exploded-stage"
-              role="img"
-              aria-label="NUO 메인 바디가 상판, 외부 프레임, 금속판, 내부 모듈, 회로와 배터리, 하부 쉘 순서로 자동 분해되는 모습"
-            >
-              <div class="assembled-visual">
-                <img src="./assets/assembled.webp" alt="" />
-              </div>
-              <div class="ex-layer" data-n="1">
-                <img src="./assets/layer_01_top.webp" alt="" />
-              </div>
-              <div class="ex-layer" data-n="2">
-                <img src="./assets/layer_02_frame.webp" alt="" />
-              </div>
-              <div class="ex-layer" data-n="3">
-                <img src="./assets/layer_03_contact.webp" alt="" />
-              </div>
-              <div class="ex-layer" data-n="4">
-                <img src="./assets/layer_04_core.webp" alt="" />
-              </div>
-              <div class="ex-layer" data-n="5">
-                <img src="./assets/layer_05_inner.webp" alt="" />
-              </div>
-              <div class="ex-layer" data-n="6">
-                <img src="./assets/layer_06_lower.webp" alt="" />
-              </div>
-            </div>
-            <div class="specs" aria-label="각 파츠 상세 설명">
-              <div class="spec" data-step="1" tabindex="0">
-                <div class="spec-number">01 / SURFACE</div>
-                <h3>Top Plate</h3>
-                <p>피부와 만나는 가장 바깥쪽 표면과 세 개의 접점 구조.</p>
-              </div>
-              <div class="spec" data-step="2" tabindex="0">
-                <div class="spec-number">02 / FORM</div>
-                <h3>Outer Frame</h3>
-                <p>NUO 특유의 곡면과 링 형태를 완성하는 외부 프레임.</p>
-              </div>
-              <div class="spec" data-step="3" tabindex="0">
-                <div class="spec-number">03 / CONNECTION</div>
-                <h3>Contact Plate</h3>
-                <p>내부의 각 구성 요소를 연결하는 정교한 접점 구조.</p>
-              </div>
-              <div class="spec" data-step="4" tabindex="0">
-                <div class="spec-number">04 / MODULE</div>
-                <h3>Core Unit</h3>
-                <p>메인 바디에 내장된 중심 모듈과 연결 부품.</p>
-              </div>
-              <div class="spec" data-step="5" tabindex="0">
-                <div class="spec-number">05 / SYSTEM</div>
-                <h3>Inner System</h3>
-                <p>회로와 전원부가 배치된 컴팩트한 내부 설계.</p>
-              </div>
-              <div class="spec" data-step="6" tabindex="0">
-                <div class="spec-number">06 / FOUNDATION</div>
-                <h3>Lower Shell</h3>
-                <p>전체 구조를 안정적으로 감싸는 하부 케이스.</p>
-              </div>
-            </div>
-          </div>
-          <div class="assembly-controls" aria-hidden="true">
-            <span id="sequence-status" aria-live="polite"></span
-            ><button class="replay" type="button" id="replay-btn" hidden>
-              ↺ &nbsp;REPLAY MOTION
-            </button>
-          </div>
-        </section>
+    <section class="section component-info inside" id="details" aria-labelledby="detail-title">
+      <div class="component-head"><div><span class="kicker">EXPLODED VIEW · NUO TECHNOLOGY</span><h2 id="detail-title">Layers of NUO.</h2></div></div>
+      <div class="exploded-layout" id="exploded-zone">
+        <div class="exploded-stage" role="img" aria-label="NUO 메인 바디가 상판, 외부 프레임, 금속판, 내부 모듈, 회로와 배터리, 하부 쉘 순서로 자동 분해되는 모습">
+          <div class="assembled-visual"><img src="./assets/assembled.webp" alt=""></div>
+          <div class="ex-layer" data-n="1"><img src="./assets/layer_01_top.webp" alt=""></div>
+          <div class="ex-layer" data-n="2"><img src="./assets/layer_02_frame.webp" alt=""></div>
+          <div class="ex-layer" data-n="3"><img src="./assets/layer_03_contact.webp" alt=""></div>
+          <div class="ex-layer" data-n="4"><img src="./assets/layer_04_core.webp" alt=""></div>
+          <div class="ex-layer" data-n="5"><img src="./assets/layer_05_inner.webp" alt=""></div>
+          <div class="ex-layer" data-n="6"><img src="./assets/layer_06_lower.webp" alt=""></div>
+        </div>
+        <div class="specs" aria-label="각 파츠 상세 설명">
+          <div class="spec" data-step="1" tabindex="0"><div class="spec-number">01 / SURFACE</div><h3>Top Plate</h3><p>피부와 만나는 가장 바깥쪽 표면과 세 개의 접점 구조.</p></div>
+          <div class="spec" data-step="2" tabindex="0"><div class="spec-number">02 / FORM</div><h3>Outer Frame</h3><p>NUO 특유의 곡면과 링 형태를 완성하는 외부 프레임.</p></div>
+          <div class="spec" data-step="3" tabindex="0"><div class="spec-number">03 / CONNECTION</div><h3>Contact Plate</h3><p>내부의 각 구성 요소를 연결하는 정교한 접점 구조.</p></div>
+          <div class="spec" data-step="4" tabindex="0"><div class="spec-number">04 / MODULE</div><h3>Core Unit</h3><p>메인 바디에 내장된 중심 모듈과 연결 부품.</p></div>
+          <div class="spec" data-step="5" tabindex="0"><div class="spec-number">05 / SYSTEM</div><h3>Inner System</h3><p>회로와 전원부가 배치된 컴팩트한 내부 설계.</p></div>
+          <div class="spec" data-step="6" tabindex="0"><div class="spec-number">06 / FOUNDATION</div><h3>Lower Shell</h3><p>전체 구조를 안정적으로 감싸는 하부 케이스.</p></div>
+        </div>
+      </div>
+      <div class="assembly-controls" aria-hidden="true"><span id="sequence-status" aria-live="polite"></span><button class="replay" type="button" id="replay-btn" hidden>↺ &nbsp;REPLAY MOTION</button></div>
+    </section>
 
-        <section
-          class="section ritual-section inside"
-          id="ritual"
-          aria-labelledby="ritual-title"
-        >
-          <div class="ritual-grid">
-            <div class="portrait">
-              <img
-                src="./assets/portrait.webp"
-                alt="NUO 기기를 볼에 대고 사용하는 모습"
-                loading="eager"
-              />
-            </div>
-            <div class="ritual-copy">
-              <h2 id="ritual-title">
-                나를 돌보는 시간은, 조금 더<br />소중하게 여기고 싶은 당신에게.
-              </h2>
-              <p class="english">
-                For those who wish to make a little more time for themselves.
-              </p>
-              <ol class="ritual-list">
-                <li>
-                  <span class="num">01.</span
-                  ><span>바쁜 일상에도 나를 챙기고 싶은 분</span>
-                </li>
-                <li>
-                  <span class="num">02.</span
-                  ><span>복잡한 관리보다 간결한 루틴을 원하는 분</span>
-                </li>
-                <li>
-                  <span class="num">03.</span
-                  ><span>어디서든 나만의 루틴을 지키고 싶은 분</span>
-                </li>
-              </ol>
-            </div>
-          </div>
-        </section>
-      </main>
+    <section class="section ritual-section inside" id="ritual" aria-labelledby="ritual-title">
+      <div class="ritual-grid">
+        <div class="portrait"><img src="./assets/portrait.webp" alt="NUO 기기를 볼에 대고 사용하는 모습" loading="eager"></div>
+        <div class="ritual-copy">
+          <h2 id="ritual-title">나를 돌보는 시간은, 조금 더<br>소중하게 여기고 싶은 당신에게.</h2>
+          <p class="english">For those who wish to make a little more time for themselves.</p>
+          <ol class="ritual-list">
+            <li><span class="num">01.</span><span>바쁜 일상에도 나를 챙기고 싶은 분</span></li>
+            <li><span class="num">02.</span><span>복잡한 관리보다 간결한 루틴을 원하는 분</span></li>
+            <li><span class="num">03.</span><span>어디서든 나만의 루틴을 지키고 싶은 분</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
 
-      <footer class="footer inside">
-        <a class="brand" href="#top"
-          ><img src="./assets/logo.svg" alt="nuo." /></a
-        ><span>© 2026 NUO. DESIGN CONCEPT.</span>
-      </footer>
-    </div>
+  <footer class="footer inside"><a class="brand" href="#top"><img src="./assets/logo.svg" alt="nuo."></a><span>© 2026 NUO. DESIGN CONCEPT.</span></footer>
+</div>
 
-    <script defer src="./script.js"></script>
+<script defer src="./script.js"></script>
 
-    <script defer src="./gallery.js"></script>
-  </body>
+<script defer src="./gallery.js"></script>
+
+</body>
 </html>
